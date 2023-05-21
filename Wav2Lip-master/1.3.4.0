@@ -1,0 +1,126 @@
+Collecting basicsr
+  Downloading basicsr-1.4.2.tar.gz (172 kB)
+Collecting addict
+  Downloading addict-2.4.0-py3-none-any.whl (3.8 kB)
+Collecting future
+  Downloading future-0.18.3.tar.gz (840 kB)
+Collecting lmdb
+  Downloading lmdb-1.4.1-cp36-cp36m-win_amd64.whl (105 kB)
+Collecting numpy>=1.17
+  Using cached numpy-1.19.5-cp36-cp36m-win_amd64.whl (13.2 MB)
+Collecting opencv-python
+  Downloading opencv-python-4.7.0.72.tar.gz (91.1 MB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+    Preparing wheel metadata: started
+    Preparing wheel metadata: finished with status 'done'
+Collecting Pillow
+  Downloading Pillow-8.4.0-cp36-cp36m-win_amd64.whl (3.2 MB)
+Collecting pyyaml
+  Downloading PyYAML-6.0-cp36-cp36m-win_amd64.whl (153 kB)
+Collecting requests
+  Using cached requests-2.27.1-py2.py3-none-any.whl (63 kB)
+Collecting scikit-image
+  Downloading scikit_image-0.17.2-cp36-cp36m-win_amd64.whl (11.5 MB)
+Collecting scipy
+  Downloading scipy-1.5.4-cp36-cp36m-win_amd64.whl (31.2 MB)
+Collecting tb-nightly
+  Downloading tb_nightly-2.11.0a20220816-py3-none-any.whl (5.9 MB)
+Collecting torch>=1.7
+  Using cached torch-1.10.2-cp36-cp36m-win_amd64.whl (226.6 MB)
+Collecting torchvision
+  Downloading torchvision-0.11.3-cp36-cp36m-win_amd64.whl (985 kB)
+Collecting tqdm
+  Using cached tqdm-4.64.1-py2.py3-none-any.whl (78 kB)
+Collecting yapf
+  Downloading yapf-0.33.0-py2.py3-none-any.whl (200 kB)
+Collecting dataclasses
+  Using cached dataclasses-0.8-py3-none-any.whl (19 kB)
+Collecting typing-extensions
+  Using cached typing_extensions-4.1.1-py3-none-any.whl (26 kB)
+Collecting charset-normalizer~=2.0.0
+  Using cached charset_normalizer-2.0.12-py3-none-any.whl (39 kB)
+Collecting idna<4,>=2.5
+  Using cached idna-3.4-py3-none-any.whl (61 kB)
+Requirement already satisfied: certifi>=2017.4.17 in d:\miniconda3\envs\wav2lip\lib\site-packages (from requests->basicsr) (2021.5.30)
+Collecting urllib3<1.27,>=1.21.1
+  Using cached urllib3-1.26.15-py2.py3-none-any.whl (140 kB)
+Collecting networkx>=2.0
+  Downloading networkx-2.5.1-py3-none-any.whl (1.6 MB)
+Collecting matplotlib!=3.0.0,>=2.0.0
+  Downloading matplotlib-3.3.4-cp36-cp36m-win_amd64.whl (8.5 MB)
+Collecting imageio>=2.3.0
+  Downloading imageio-2.15.0-py3-none-any.whl (3.3 MB)
+Collecting PyWavelets>=1.1.1
+  Downloading PyWavelets-1.1.1-cp36-cp36m-win_amd64.whl (4.2 MB)
+Collecting tifffile>=2019.7.26
+  Downloading tifffile-2020.9.3-py3-none-any.whl (148 kB)
+Collecting python-dateutil>=2.1
+  Downloading python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+Collecting cycler>=0.10
+  Downloading cycler-0.11.0-py3-none-any.whl (6.4 kB)
+Collecting pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.3
+  Using cached pyparsing-3.0.9-py3-none-any.whl (98 kB)
+Collecting kiwisolver>=1.0.1
+  Downloading kiwisolver-1.3.1-cp36-cp36m-win_amd64.whl (51 kB)
+Collecting decorator<5,>=4.3
+  Downloading decorator-4.4.2-py2.py3-none-any.whl (9.2 kB)
+Collecting six>=1.5
+  Using cached six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting markdown>=2.6.8
+  Downloading Markdown-3.3.7-py3-none-any.whl (97 kB)
+Collecting protobuf<3.20,>=3.9.2
+  Downloading protobuf-3.19.6-cp36-cp36m-win_amd64.whl (897 kB)
+Requirement already satisfied: setuptools>=41.0.0 in d:\miniconda3\envs\wav2lip\lib\site-packages (from tb-nightly->basicsr) (58.0.4)
+Collecting google-auth-oauthlib<0.5,>=0.4.1
+  Downloading google_auth_oauthlib-0.4.6-py2.py3-none-any.whl (18 kB)
+Collecting werkzeug>=1.0.1
+  Downloading Werkzeug-2.0.3-py3-none-any.whl (289 kB)
+Collecting absl-py>=0.4
+  Downloading absl_py-1.4.0-py3-none-any.whl (126 kB)
+Requirement already satisfied: wheel>=0.26 in d:\miniconda3\envs\wav2lip\lib\site-packages (from tb-nightly->basicsr) (0.37.1)
+Collecting grpcio>=1.24.3
+  Downloading grpcio-1.48.2-cp36-cp36m-win_amd64.whl (3.6 MB)
+Collecting tensorboard-plugin-wit>=1.6.0
+  Downloading tensorboard_plugin_wit-1.8.1-py3-none-any.whl (781 kB)
+Collecting google-auth<3,>=1.6.3
+  Downloading google_auth-2.17.3-py2.py3-none-any.whl (178 kB)
+Collecting tensorboard-data-server<0.7.0,>=0.6.0
+  Downloading tensorboard_data_server-0.6.1-py3-none-any.whl (2.4 kB)
+Collecting cachetools<6.0,>=2.0.0
+  Downloading cachetools-4.2.4-py3-none-any.whl (10 kB)
+Collecting rsa<5,>=3.1.4
+  Downloading rsa-4.9-py3-none-any.whl (34 kB)
+Collecting pyasn1-modules>=0.2.1
+  Downloading pyasn1_modules-0.3.0-py2.py3-none-any.whl (181 kB)
+Collecting requests-oauthlib>=0.7.0
+  Downloading requests_oauthlib-1.3.1-py2.py3-none-any.whl (23 kB)
+Collecting importlib-metadata>=4.4
+  Downloading importlib_metadata-4.8.3-py3-none-any.whl (17 kB)
+Collecting zipp>=0.5
+  Downloading zipp-3.6.0-py3-none-any.whl (5.3 kB)
+Collecting pyasn1<0.6.0,>=0.4.6
+  Downloading pyasn1-0.5.0-py2.py3-none-any.whl (83 kB)
+Collecting oauthlib>=3.0.0
+  Downloading oauthlib-3.2.2-py3-none-any.whl (151 kB)
+Collecting colorama
+  Downloading colorama-0.4.5-py2.py3-none-any.whl (16 kB)
+Collecting importlib-resources
+  Downloading importlib_resources-5.4.0-py3-none-any.whl (28 kB)
+Collecting yapf
+  Downloading yapf-0.32.0-py2.py3-none-any.whl (190 kB)
+Building wheels for collected packages: basicsr, future, opencv-python
+  Building wheel for basicsr (setup.py): started
+  Building wheel for basicsr (setup.py): finished with status 'done'
+  Created wheel for basicsr: filename=basicsr-1.4.2-py3-none-any.whl size=214844 sha256=7ae72f5568344c6d06675acaf0d9d9d8ec50f6d39411675bc1932f26164adfda
+  Stored in directory: c:\users\kangaroo\appdata\local\pip\cache\wheels\7e\24\df\f03479b95e33f49ce50fe630b289bebabac40dd8fb87b30ae9
+  Building wheel for future (setup.py): started
+  Building wheel for future (setup.py): finished with status 'done'
+  Created wheel for future: filename=future-0.18.3-py3-none-any.whl size=492037 sha256=f2693da2b5fa11cee9b4b3351b7ec63b240df1fcdad51ac1a13182e3d5c9a0b9
+  Stored in directory: c:\users\kangaroo\appdata\local\pip\cache\wheels\63\f1\0c\e56d12b3804345ce5ba34279cbfe583ecafdd1401551457330
+  Building wheel for opencv-python (PEP 517): started
+  Building wheel for opencv-python (PEP 517): finished with status 'error'
+Successfully built basicsr future
+Failed to build opencv-python
